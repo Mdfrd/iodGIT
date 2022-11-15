@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        .product {
+            background-color: plum;
+            width: 150px;
+        }
+
+        .highlight {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://youtube.com" target="_blank">click me here</a>
+
+    <a href="https://google.com" target="_blank">click me there</a>
+    <h1 id="header">Hello Javascript!! </h1>
+    <img src="/Users/mdfrd/Downloads/Screenshot 2022-11-15 at 1.32.03 PM 2.jpg" alt="coffee cherry">
+
+
+    <p1>short example of a &lt;paragraph&gt;! &copy;</p1>
+
+    <h2>Header 2</h2>
+    <! - - this example calls a function which performs a calculation, and returns the result: -->
+        <p id="demo"></p>
+
+        <button onclick="helloWorld()">Say Hello</button>
+        <h3>HoHoHo</h3>
+        <h4>HeHeHeHe</h4>
+        <p2>this is the <em>second</em> paragraph</p2>
+
+        <table>
+            <thead>
+                <th colspan="2">Example_1
+                </th>
+                <tr>
+                    <th>Header</th>
+                    <th>Cell</th>
+                </tr>
+            </thead>
+
+            <tr>
+                <td>Data</td>
+                <td>Cell 1</td>
+            </tr>
+            <tr>
+                <td>Data</td>
+                <td>Cell 2</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <th>
+                        Example
+                    </th>
+                    <th>_2
+                    </th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="product">
+            <p>
+                <span class="highlight">Start of this sentence,</span> example of container
+
+            </p>
+        </div>
+        <a href="https://google.com" target="_blank">Google here</a>
+
+        <article>
+            <img src="https://images.pexels.com/photos/2693212/pexels-photo-2693212.png?cs=srgb&dl=pexels-anni-roenkae-2693212.jpg&fm=jpg&_gl=1*14eczd4*_ga*OTg2NzM0NDE3LjE2Njg1MTIzMjM.*_ga_8JE65Q40S6*MTY2ODUxMjMyMy4xLjEuMTY2ODUxMjMyNS4wLjAuMA.."
+                alt="">
+        </article>
+        <form action="/action_page.php" id="usrform">
+            Name: <input type="text" name="usrname">
+            <input type="submit">
+        </form>
+        <br>
+        <textarea rows="4" cols="50" name="comment" form="usrform">
+          Enter text here...</textarea>
+        <ul>
+            <li>hello</li>
+            <li>there</li>
+            <li>people</li>
+            <li>how</li>
+            <li>you</li>
+            <li>doing</li>
+        </ul>
+        </aside>
+        <script>
+            document.getElementById('header').innerHTML = "Hello Javascript!";
+            document.getElementById('aside').style.backgroundColor = 'yellow'
+            function helloWorld() { alert('Hello world!') }
+        </script>
+</body>
+
+</html>
